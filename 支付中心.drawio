@@ -1,1 +1,64 @@
-<mxfile host="www.draw.io" modified="2019-12-04T12:36:28.597Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36" etag="L2tKad3OirSO0axRQFcK" version="12.3.6" type="github" pages="1"><diagram id="r472rDjAA9qSprmHRPRD" name="第 1 页">7ZlLj5swEMc/jY8rGczDHCGBVpXaHlZtpd5Q8AZUwCmQhu2n79iYEBayzTYPUiU5JGb8gplf/vZgRGZZ/a4IV/FHHrEU6TiqEZkjXddME8OPsDw3FpvajWFZJJFq1Bkek99MGVW/5TqJWNlrWHGeVsmqb1zwPGeLqmcLi4Jv+s2eeNqfdRUu2cDwuAjTofVbElWxsmqW01W8Z8kybqe2TKOpycK2tXqUMg4jvtkxER+RWcF51ZSyesZS4b3WMU2/YE/t9s4KlleHdIi+Z66RfFjUXz7X5Gu5tj+R4sFqRvkVpmv1xOpmq+fWBQVf5xETg2BEvE2cVOxxFS5E7QaCDra4ylK40qAYhWUs24qLsir4DzbjKS/kUCQIMHygRs3KiorVex9H2zoJ8GI8Y1XxDE3aDpbyqyKLtH7edHGybGWLd0JE2o6hYmO5HbvzHhSUA9/gTO3EzjyBl7ZeUV4y6NBLGh3xEj2Xk/Trc5KJr81JZMRJVgqzek8cnmnXW9bPNW8rHkopoC400MxV3VVCaSl/fYpcH7k68k1E58gxkW8hF4yasDhgsduZ4MabyVTXqaM0QBmPREm/ZJSMs0XJQo6B3AD5BvI85ND/J0qGcW1RMq9QcKxrc5J9PMrGoShDAVCeC5S9AFEyArdQJ4ocXRWodSjuEJOqH67+JiTnORP3nqTpC1OYJsscLhcQQwZ2T0Q4gZ2gqyqyJIrENKN89Anq7YJO8aciZo8XzT6QF/1cvDh7eSlXYX6k9AEXWBRggYLFChCAb+pIFkxBymti2Ex/U3ToLxZG0xmhA1+SjjZ7uxAe1EUulpwEQiqEwMykhSLPRw65bTwG+6bp8RjLAU6Dh4Ncgqgv8YB9rn3Xij4MlnN1WrE/1zkWBikIniN1APYgoAw28ojYhogCbEaC24ZhkPdOD8P+lOp4ZRARb3QAi7Wjy4DvVLxGhalNTsVYCncaKhpl0NtdhHZfL/ow2Jj2YCDm5DDsT1WPXy9oICXCRm6TaEgqQBCAE8hTvfltwzB4bTG9MtCzwQBJBAiCITMOKpIIAYMt31tQmWg0nPhSK2y5plh3YP4CzOTqoY9kpiOvqMYCKwq+EgkPDyL4pneIg5MxjNXJmKBTHYPCsneWBJAYwyhsD8V2o/APB2Vw2Z1oyrqdg2Hi/wE=</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-12-04T12:42:49.857Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36" etag="5NV62SwP9DUYCjPZiVU4" version="12.3.6" type="github" pages="1">
+  <diagram id="r472rDjAA9qSprmHRPRD" name="第 1 页">
+    <mxGraphModel dx="1550" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="dZmA4iJcxUOx3Vsu7N3r-1" value="&lt;font style=&quot;font-size: 15px&quot;&gt;数据安全模块&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="480" width="180" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="dZmA4iJcxUOx3Vsu7N3r-2" value="&lt;font style=&quot;font-size: 15px&quot;&gt;风控模块&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="480" width="180" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="dZmA4iJcxUOx3Vsu7N3r-3" value="&lt;font style=&quot;font-size: 15px&quot;&gt;订单模块&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="400" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="dZmA4iJcxUOx3Vsu7N3r-4" value="&lt;font style=&quot;font-size: 15px&quot;&gt;支付模块&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="400" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="dZmA4iJcxUOx3Vsu7N3r-5" value="财务模块" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="560" y="400" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="dZmA4iJcxUOx3Vsu7N3r-7" value="&lt;font style=&quot;font-size: 14px&quot;&gt;支付中心模块划分&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="435" y="170" width="120" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="dZmA4iJcxUOx3Vsu7N3r-20" value="支付管理后台" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="320" y="340" width="360" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="GhXFJLf9_k68R1W_ulhU-1" value="数据加密传输功能" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="160" y="640" width="140" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="GhXFJLf9_k68R1W_ulhU-2" value="1、发票管理功能" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="760" y="400" width="120" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="GhXFJLf9_k68R1W_ulhU-3" value="2、交易凭证功能" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="760" y="422" width="120" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="GhXFJLf9_k68R1W_ulhU-4" value="1、对账功能" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="720" y="570" width="100" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="GhXFJLf9_k68R1W_ulhU-5" value="2、黑名单功能" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="722" y="590" width="110" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="GhXFJLf9_k68R1W_ulhU-7" value="" style="endArrow=classic;html=1;fontSize=15;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="711" y="590" as="sourcePoint"/>
+            <mxPoint x="660" y="550" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GhXFJLf9_k68R1W_ulhU-8" value="" style="endArrow=classic;html=1;fontSize=15;exitX=0.686;exitY=-0.2;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GhXFJLf9_k68R1W_ulhU-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="721" y="600" as="sourcePoint"/>
+            <mxPoint x="360" y="550" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GhXFJLf9_k68R1W_ulhU-9" value="" style="endArrow=classic;html=1;fontSize=15;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="GhXFJLf9_k68R1W_ulhU-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="490" as="sourcePoint"/>
+            <mxPoint x="690" y="440" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
