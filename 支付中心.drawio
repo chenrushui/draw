@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-04T12:55:44.170Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36" etag="BC7mR27upDS8-0Wl75jm" version="12.3.6" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-04T12:55:57.183Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36" etag="k9mxFsSuXtIEfjMwW4C1" version="12.3.6" type="github" pages="1">
   <diagram id="r472rDjAA9qSprmHRPRD" name="第 1 页">
     <mxGraphModel dx="1550" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -23,7 +23,7 @@
           <mxGeometry x="560" y="400" width="120" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="dZmA4iJcxUOx3Vsu7N3r-7" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;支付中心模块划分&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=19;" parent="1" vertex="1">
-          <mxGeometry x="430" y="270" width="160" height="20" as="geometry"/>
+          <mxGeometry x="390" y="270" width="200" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="dZmA4iJcxUOx3Vsu7N3r-20" value="支付管理后台" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="320" y="340" width="360" height="60" as="geometry"/>
