@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-05T03:40:44.123Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36" etag="dsgDL1YGlDPXbhwGQmXn" version="12.3.6" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-05T04:33:23.995Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36" etag="tlz5ZSHcC9mppXjLOLhh" version="12.3.6" type="github" pages="1">
   <diagram id="r472rDjAA9qSprmHRPRD" name="第 1 页">
     <mxGraphModel dx="1292" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -91,9 +91,6 @@
         <mxCell id="GhXFJLf9_k68R1W_ulhU-24" value="购买流程状态机" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=16;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="120" y="730" width="120" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="GhXFJLf9_k68R1W_ulhU-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;fontSize=19;" edge="1" parent="1" source="GhXFJLf9_k68R1W_ulhU-24" target="GhXFJLf9_k68R1W_ulhU-24">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
         <mxCell id="GhXFJLf9_k68R1W_ulhU-28" value="订单待支付" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="400" y="840" width="80" height="40" as="geometry"/>
         </mxCell>
@@ -175,8 +172,8 @@
             <mxPoint x="1040" y="859.5" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GhXFJLf9_k68R1W_ulhU-53" value="用户通过微信支付流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=16;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="115" y="1020" width="165" height="20" as="geometry"/>
+        <mxCell id="GhXFJLf9_k68R1W_ulhU-53" value="用户通过微信支付付款流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=16;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="115" y="1010" width="205" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="GhXFJLf9_k68R1W_ulhU-54" value="用户下单" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="120" y="1080" width="80" height="40" as="geometry"/>
