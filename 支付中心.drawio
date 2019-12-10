@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-09T12:16:31.773Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36" etag="LN4VhlkjbbZ4MqZRQh_u" version="12.3.8" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-10T01:39:21.661Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36" etag="Hq2RW9q54Obmg_Rdhfgs" version="12.3.8" type="github" pages="1">
   <diagram id="r472rDjAA9qSprmHRPRD" name="第 1 页">
     <mxGraphModel dx="1550" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -275,16 +275,13 @@
           <mxGeometry x="359" y="1725" width="81" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="LZZ9HcQqygnxceF9-jlR-15" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;font-size: 14px&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;span style=&quot;&quot;&gt;支付中心管理后台&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="685" y="1725" width="118" height="40" as="geometry"/>
+          <mxGeometry x="826" y="1724.5" width="145" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="LZZ9HcQqygnxceF9-jlR-16" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;font-size: 14px&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;span&gt;支付平台&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="460" y="1725" width="80" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="LZZ9HcQqygnxceF9-jlR-17" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;font-size: 14px&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;span style=&quot;&quot;&gt;运营系统&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="822.5" y="1725" width="80" height="40" as="geometry"/>
-        </mxCell>
         <mxCell id="LZZ9HcQqygnxceF9-jlR-19" value="&lt;font color=&quot;#333333&quot;&gt;BI系统&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="925.5" y="1725" width="80" height="40" as="geometry"/>
+          <mxGeometry x="708.5" y="1725" width="80" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="LZZ9HcQqygnxceF9-jlR-20" value="支付产品" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=16;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="270" y="1735" width="70" height="20" as="geometry"/>
@@ -299,7 +296,7 @@
           <mxGeometry x="275" y="1835" width="70" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="LZZ9HcQqygnxceF9-jlR-25" value="&lt;font color=&quot;#333333&quot;&gt;API开放&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="390" y="1825" width="100" height="40" as="geometry"/>
+          <mxGeometry x="380" y="1825" width="100" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="LZZ9HcQqygnxceF9-jlR-26" value="&lt;font color=&quot;#333333&quot;&gt;访问鉴权&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="550" y="1825" width="90" height="40" as="geometry"/>
