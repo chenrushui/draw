@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-18T09:15:06.061Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36" etag="xswNR254y1ib1qH-8rVr" version="12.4.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-18T09:17:11.904Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36" etag="E4UIvjJEh1WzppiQynjh" version="12.4.3" type="github" pages="1">
   <diagram id="iU_TIAPN-Pph5pVSYNDZ" name="第 1 页">
     <mxGraphModel dx="1550" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -183,9 +183,6 @@
         </mxCell>
         <mxCell id="6lCbFaMOvaHUvnWq1Ras-66" value="8、前端调起微信进行付款" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="186" y="1140" width="144" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="6lCbFaMOvaHUvnWq1Ras-67" value="10.1、sdk返回支付信息" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="186" y="1198" width="134" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="6lCbFaMOvaHUvnWq1Ras-68" value="" style="endArrow=classic;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -670,23 +667,8 @@
             <mxPoint x="531" y="4360" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="WgVv_9n-KvLfAYpmwwS_-140" value="" style="endArrow=classic;html=1;dashed=1;fontColor=#FF6666;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" target="6lCbFaMOvaHUvnWq1Ras-67" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="741.5" y="1208" as="sourcePoint"/>
-            <mxPoint x="891.5" y="1212" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="WgVv_9n-KvLfAYpmwwS_-141" value="流程2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="120.5" y="1400" width="40" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="WgVv_9n-KvLfAYpmwwS_-143" value="11.2、向第三方支付平台查询结果" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="466" y="1420" width="184" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="WgVv_9n-KvLfAYpmwwS_-144" value="" style="endArrow=classic;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="463" y="1440" as="sourcePoint"/>
-            <mxPoint x="741.5" y="1440" as="targetPoint"/>
-          </mxGeometry>
         </mxCell>
         <mxCell id="WgVv_9n-KvLfAYpmwwS_-145" value="" style="endArrow=classic;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1114,51 +1096,6 @@
         <mxCell id="sy2C0o2GnTvNwi6GOGdS-10" value="客户端/&lt;br&gt;业务系统" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="40" y="3560" width="80" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="sy2C0o2GnTvNwi6GOGdS-12" value="前端应用/业务系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="134" y="770" width="120" height="42" as="geometry"/>
-        </mxCell>
-        <mxCell id="sy2C0o2GnTvNwi6GOGdS-13" value="云鹊医支付中心" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="411.5" y="770" width="120" height="42" as="geometry"/>
-        </mxCell>
-        <mxCell id="sy2C0o2GnTvNwi6GOGdS-14" value="第三方支付平台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="693.5" y="770" width="120" height="42" as="geometry"/>
-        </mxCell>
-        <mxCell id="sy2C0o2GnTvNwi6GOGdS-15" value="" style="endArrow=none;dashed=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sy2C0o2GnTvNwi6GOGdS-12">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="194" y="860" as="sourcePoint"/>
-            <mxPoint x="195" y="1600" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sy2C0o2GnTvNwi6GOGdS-16" value="" style="endArrow=none;dashed=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="473" y="812" as="sourcePoint"/>
-            <mxPoint x="474" y="1590" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sy2C0o2GnTvNwi6GOGdS-17" value="" style="endArrow=none;dashed=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="752.5" y="820" as="sourcePoint"/>
-            <mxPoint x="752" y="1590" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sy2C0o2GnTvNwi6GOGdS-18" value="1、前端用户下单" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="194" y="837" width="110" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="sy2C0o2GnTvNwi6GOGdS-19" value="" style="endArrow=classic;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="291.5" y="856.5" as="sourcePoint"/>
-            <mxPoint x="471.5" y="856.5" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sy2C0o2GnTvNwi6GOGdS-20" value="" style="endArrow=classic;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="380.5" y="899.5" as="sourcePoint"/>
-            <mxPoint x="200.5" y="899.5" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sy2C0o2GnTvNwi6GOGdS-21" value="2、后端生成订单并返回订单id" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="306.5" y="880" width="165" height="20" as="geometry"/>
-        </mxCell>
         <mxCell id="sy2C0o2GnTvNwi6GOGdS-22" value="" style="endArrow=classic;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="204" y="977" as="sourcePoint"/>
@@ -1168,83 +1105,14 @@
         <mxCell id="sy2C0o2GnTvNwi6GOGdS-23" value="3、前端用户预支付" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="198" y="958" width="110" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="sy2C0o2GnTvNwi6GOGdS-24" value="" style="endArrow=classic;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="476.5" y="1032" as="sourcePoint"/>
-            <mxPoint x="751.5" y="1032" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sy2C0o2GnTvNwi6GOGdS-25" value="4、支付中心对请求进行处理" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="476" y="978" width="155" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="sy2C0o2GnTvNwi6GOGdS-26" value="5、调用预支付接口" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="476.5" y="1013" width="110" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="sy2C0o2GnTvNwi6GOGdS-27" value="" style="endArrow=classic;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="748.5" y="1062" as="sourcePoint"/>
-            <mxPoint x="470" y="1062" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sy2C0o2GnTvNwi6GOGdS-28" value="6、预支付成功" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="640" y="1042" width="110" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="sy2C0o2GnTvNwi6GOGdS-29" value="" style="endArrow=classic;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="471.5" y="1084" as="sourcePoint"/>
-            <mxPoint x="200" y="1084" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sy2C0o2GnTvNwi6GOGdS-30" value="7、返回prepay_id给前端" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="321.5" y="1065" width="150" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="sy2C0o2GnTvNwi6GOGdS-31" value="8、前端调起微信进行付款" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="196" y="1150" width="144" height="20" as="geometry"/>
-        </mxCell>
         <mxCell id="sy2C0o2GnTvNwi6GOGdS-32" value="10.1、sdk返回支付信息" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="196" y="1208" width="134" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="sy2C0o2GnTvNwi6GOGdS-33" value="" style="endArrow=classic;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="753.5" y="1192" as="sourcePoint"/>
-            <mxPoint x="470" y="1192" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sy2C0o2GnTvNwi6GOGdS-34" value="9.1、支付平台回调支付结果" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="591.5" y="1171" width="160" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="sy2C0o2GnTvNwi6GOGdS-35" value="" style="endArrow=classic;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="193" y="1274" as="sourcePoint"/>
-            <mxPoint x="471.5" y="1274" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sy2C0o2GnTvNwi6GOGdS-36" value="11.1、从后端查询支付结果" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="195" y="1255" width="147" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="sy2C0o2GnTvNwi6GOGdS-37" value="12.1、如果支付结果存在直接返回" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="475.5" y="1276" width="185" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="sy2C0o2GnTvNwi6GOGdS-38" value="" style="endArrow=classic;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="476" y="1509.5" as="sourcePoint"/>
-            <mxPoint x="203.5" y="1509.5" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sy2C0o2GnTvNwi6GOGdS-39" value="13.2、返回支付结果给前端" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="320" y="1490" width="153" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="sy2C0o2GnTvNwi6GOGdS-40" value="流程1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="130" y="1170" width="40" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="sy2C0o2GnTvNwi6GOGdS-41" value="" style="endArrow=classic;html=1;dashed=1;fontColor=#FF6666;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" target="sy2C0o2GnTvNwi6GOGdS-32">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="751.5" y="1218" as="sourcePoint"/>
             <mxPoint x="901.5" y="1222" as="targetPoint"/>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="sy2C0o2GnTvNwi6GOGdS-42" value="流程2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="130.5" y="1410" width="40" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="sy2C0o2GnTvNwi6GOGdS-43" value="11.2、向第三方支付平台查询结果" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="476" y="1430" width="184" height="20" as="geometry"/>
@@ -1254,48 +1122,6 @@
             <mxPoint x="473" y="1450" as="sourcePoint"/>
             <mxPoint x="751.5" y="1450" as="targetPoint"/>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="sy2C0o2GnTvNwi6GOGdS-45" value="" style="endArrow=classic;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="750" y="1490" as="sourcePoint"/>
-            <mxPoint x="470" y="1490" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sy2C0o2GnTvNwi6GOGdS-46" value="12.2、返回支付结果" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="630" y="1470" width="122" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="sy2C0o2GnTvNwi6GOGdS-47" value="" style="endArrow=classic;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="466" y="1315.5" as="sourcePoint"/>
-            <mxPoint x="193.5" y="1315.5" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sy2C0o2GnTvNwi6GOGdS-48" value="13.1、返回支付结果给前端" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="319.5" y="1296" width="153" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="sy2C0o2GnTvNwi6GOGdS-49" value="10.2、前端从支付中心查询支付状态" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="195" y="1410" width="205" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="sy2C0o2GnTvNwi6GOGdS-50" value="" style="endArrow=classic;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="196" y="1430" as="sourcePoint"/>
-            <mxPoint x="474.5" y="1430" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sy2C0o2GnTvNwi6GOGdS-51" value="" style="endArrow=classic;html=1;dashed=1;fontColor=#FF6666;fillColor=#e1d5e7;strokeColor=#9673a6;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="sy2C0o2GnTvNwi6GOGdS-31">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="915" y="1249.5" as="sourcePoint"/>
-            <mxPoint x="750" y="1160" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sy2C0o2GnTvNwi6GOGdS-52" value="" style="endArrow=classic;html=1;dashed=1;fontColor=#FF6666;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="748.5" y="1390" as="sourcePoint"/>
-            <mxPoint x="327" y="1390" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sy2C0o2GnTvNwi6GOGdS-53" value="9.2、sdk返回支付信息" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="196" y="1380" width="134" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="sy2C0o2GnTvNwi6GOGdS-54" value="商品微服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="281.5" y="5920" width="120" height="42" as="geometry"/>
