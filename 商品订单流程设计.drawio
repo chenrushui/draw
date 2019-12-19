@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-19T08:22:37.995Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36" etag="ZdWnB8JB4oOpVfLq0Llc" version="12.4.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-19T08:23:13.186Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36" etag="QIJbKB4_nQ3p8LsIp7hS" version="12.4.3" type="github" pages="1">
   <diagram id="3cYB_InZ-CpuRBHMG3al" name="Page-1">
     <mxGraphModel dx="1552" dy="872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -685,7 +685,7 @@
             <mxPoint x="260" y="2725" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="PQt3_hAn9UpPP6wbzQMd-277" value="更新缓冲中商品库存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PQt3_hAn9UpPP6wbzQMd-277" value="更新缓存中商品库存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="94" y="2710" width="120" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="PQt3_hAn9UpPP6wbzQMd-278" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
