@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-19T09:34:27.810Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36" etag="Pdmi6kWnxRaJu-u3Syyo" version="12.4.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-19T09:41:03.503Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36" etag="NeQNw0JMjxq2SOupJaXk" version="12.4.3" type="github" pages="1">
   <diagram id="3cYB_InZ-CpuRBHMG3al" name="Page-1">
     <mxGraphModel dx="1552" dy="872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -733,7 +733,7 @@
         <mxCell id="PQt3_hAn9UpPP6wbzQMd-299" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PQt3_hAn9UpPP6wbzQMd-297" target="PQt3_hAn9UpPP6wbzQMd-277">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="PQt3_hAn9UpPP6wbzQMd-297" value="保存进销存记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PQt3_hAn9UpPP6wbzQMd-297" value="保存进销存记录&lt;br&gt;（后台操作）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="94" y="2720" width="120" height="32" as="geometry"/>
         </mxCell>
         <mxCell id="PQt3_hAn9UpPP6wbzQMd-306" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PQt3_hAn9UpPP6wbzQMd-300" target="PQt3_hAn9UpPP6wbzQMd-301">
@@ -873,6 +873,9 @@
             <mxPoint x="590" y="3010" as="sourcePoint"/>
             <mxPoint x="650" y="2980" as="targetPoint"/>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="PQt3_hAn9UpPP6wbzQMd-342" value="库存管理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="2390" width="90" height="50" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
