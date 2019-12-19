@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-19T02:41:38.210Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36" etag="_527J0RheBtoUIAyrwfp" version="12.4.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-19T02:44:32.501Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36" etag="1Yc5gQVXmam9aczEiWXs" version="12.4.3" type="github" pages="1">
   <diagram id="3cYB_InZ-CpuRBHMG3al" name="Page-1">
     <mxGraphModel dx="868" dy="487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -64,7 +64,7 @@
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="PQt3_hAn9UpPP6wbzQMd-24" value="添加商品类型" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="20" width="80" height="60" as="geometry"/>
+          <mxGeometry x="70" y="30" width="80" height="50" as="geometry"/>
         </mxCell>
         <mxCell id="PQt3_hAn9UpPP6wbzQMd-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PQt3_hAn9UpPP6wbzQMd-25" target="PQt3_hAn9UpPP6wbzQMd-28">
           <mxGeometry relative="1" as="geometry"/>
@@ -93,7 +93,7 @@
         <mxCell id="PQt3_hAn9UpPP6wbzQMd-30" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="90" y="260" width="40" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="PQt3_hAn9UpPP6wbzQMd-31" value="添加商品类型" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PQt3_hAn9UpPP6wbzQMd-31" value="编辑商品类型" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="10" width="120" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="PQt3_hAn9UpPP6wbzQMd-32" value="商品类型名称&lt;br&gt;是否存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
