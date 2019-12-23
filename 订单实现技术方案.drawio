@@ -1,1 +1,22 @@
-<mxfile host="www.draw.io" modified="2019-12-23T02:04:26.659Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36" version="12.4.3" etag="apzbHTJLBHoQpYEASByE" type="github"><diagram id="hI4YDo3AI47wquy1er2c">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-12-23T02:07:17.803Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36" etag="EAvV5ZjsXLQVF59B6J_p" version="12.4.3" type="github" pages="1">
+  <diagram id="hI4YDo3AI47wquy1er2c" name="第 1 页">
+    <mxGraphModel dx="1550" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="9cM0dpcqt3-kv-jDEAqP-2" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="240" width="40" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="9cM0dpcqt3-kv-jDEAqP-5" value="点击购买按钮" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="320" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="9cM0dpcqt3-kv-jDEAqP-7" value="&lt;span style=&quot;white-space: normal&quot;&gt;判断是否允许&lt;/span&gt;&lt;br style=&quot;white-space: normal&quot;&gt;&lt;span style=&quot;white-space: normal&quot;&gt;重复购买或下单&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="400" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="9cM0dpcqt3-kv-jDEAqP-9" value="查询库存信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="480" width="120" height="40" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
