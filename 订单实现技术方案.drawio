@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-23T02:30:33.163Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36" etag="qNL_Rku3MoYauKySlcQQ" version="12.4.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-23T02:41:15.043Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36" etag="yritlt-e1Bhbuyzhetbi" version="12.4.3" type="github" pages="1">
   <diagram id="hI4YDo3AI47wquy1er2c" name="第 1 页">
     <mxGraphModel dx="1824" dy="926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -16,11 +16,11 @@
         <mxCell id="9cM0dpcqt3-kv-jDEAqP-9" value="查询库存信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="480" width="120" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="9cM0dpcqt3-kv-jDEAqP-10" value="计算价格金额" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9cM0dpcqt3-kv-jDEAqP-10" value="计算价格金额" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="560" width="120" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="9cM0dpcqt3-kv-jDEAqP-13" value="1、不允许多次购买" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="160" y="210" width="120" height="20" as="geometry"/>
+          <mxGeometry x="160" y="210" width="110" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="9cM0dpcqt3-kv-jDEAqP-16" value="redis" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="360" y="400" width="80" height="40" as="geometry"/>
@@ -115,7 +115,7 @@
             <mxPoint x="280" y="819.5" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9cM0dpcqt3-kv-jDEAqP-43" value="保存商品、用户、金额信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9cM0dpcqt3-kv-jDEAqP-43" value="保存商品、用户信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="880" width="120" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="9cM0dpcqt3-kv-jDEAqP-45" value="" style="endArrow=classic;html=1;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
@@ -124,7 +124,7 @@
             <mxPoint x="360" y="899.5" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9cM0dpcqt3-kv-jDEAqP-46" value="添加缓存信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9cM0dpcqt3-kv-jDEAqP-46" value="订单信息加入缓存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="960" width="120" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="9cM0dpcqt3-kv-jDEAqP-47" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
@@ -172,11 +172,17 @@
         <mxCell id="9cM0dpcqt3-kv-jDEAqP-61" value="订单主表与订单项表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="880" width="120" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="9cM0dpcqt3-kv-jDEAqP-63" value="使用redis做乐观锁&lt;br&gt;防止超卖" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="480" width="120" height="40" as="geometry"/>
+        <mxCell id="9cM0dpcqt3-kv-jDEAqP-64" value="查询当前用户的订单信息是否&lt;br&gt;包含当前商品" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="400" width="160" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="9cM0dpcqt3-kv-jDEAqP-64" value="查询当前用户的订单信息是否包含&lt;br&gt;当前商品" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="400" width="120" height="40" as="geometry"/>
+        <mxCell id="9cM0dpcqt3-kv-jDEAqP-65" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#FF9999;" vertex="1" parent="1">
+          <mxGeometry x="140" y="540" width="350" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="9cM0dpcqt3-kv-jDEAqP-66" value="订单金额和优惠券使用支付时确定，可能存在变化" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="570" width="135" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="9cM0dpcqt3-kv-jDEAqP-70" value="redis Key规则：商品类型+用户id+商品id" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="450" width="230" height="40" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
