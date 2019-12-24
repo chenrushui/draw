@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-24T02:03:49.187Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36" etag="ZwTt6_ptq9Wto26xm_RG" version="12.4.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-24T02:04:22.032Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36" etag="p6dkT1pGPq87LzVUdXyT" version="12.4.3" type="github" pages="1">
   <diagram id="hI4YDo3AI47wquy1er2c" name="第 1 页">
     <mxGraphModel dx="1550" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -654,18 +654,6 @@
         </mxCell>
         <mxCell id="9cM0dpcqt3-kv-jDEAqP-299" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
           <mxGeometry x="551" y="670" width="20" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="9cM0dpcqt3-kv-jDEAqP-304" value="" style="endArrow=classic;html=1;strokeColor=#000000;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="220" y="640" as="sourcePoint"/>
-            <mxPoint x="140" y="640" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="9cM0dpcqt3-kv-jDEAqP-305" value="" style="endArrow=classic;html=1;strokeColor=#000000;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="230" y="650" as="sourcePoint"/>
-            <mxPoint x="150" y="650" as="targetPoint"/>
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
