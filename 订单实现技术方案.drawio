@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-12-24T03:52:05.268Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36" etag="HX76oq_KasqnmVq2tc0Z" version="12.4.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-24T05:11:31.041Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36" etag="u_BupHlPRUJ7SivNdVoT" version="12.4.3" type="github" pages="1">
   <diagram id="hI4YDo3AI47wquy1er2c" name="第 1 页">
-    <mxGraphModel dx="1549" dy="871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1552" dy="872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -398,7 +398,7 @@
             <mxPoint x="650" y="2392" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9cM0dpcqt3-kv-jDEAqP-210" value="去支付服务查询订单状态" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="9cM0dpcqt3-kv-jDEAqP-210" value="订单服务本地查询订单状态" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="160" y="1600" width="120" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="9cM0dpcqt3-kv-jDEAqP-211" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
@@ -606,7 +606,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9cM0dpcqt3-kv-jDEAqP-288" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;direction=east;" parent="1" vertex="1">
-          <mxGeometry x="175.25" y="361" width="20" height="20" as="geometry"/>
+          <mxGeometry x="237.25" y="260" width="20" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="kBRCypBLUb59v_NiYa0x-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9cM0dpcqt3-kv-jDEAqP-289" target="kBRCypBLUb59v_NiYa0x-7">
           <mxGeometry relative="1" as="geometry"/>
