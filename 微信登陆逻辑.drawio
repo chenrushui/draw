@@ -1,1 +1,109 @@
-<mxfile host="www.draw.io" modified="2020-01-15T09:52:03.631Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36" version="12.5.3" etag="v9VPwba-zoMKuTuvvtPd" type="github"><diagram id="MF-8J1_6n6LKRIg4FweB">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-01-15T10:03:20.694Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.108 Safari/537.36" etag="iG49EULuTO3vcFPg-_DM" version="12.5.3" type="github">
+  <diagram id="MF-8J1_6n6LKRIg4FweB" name="第 1 页">
+    <mxGraphModel dx="1550" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="_kTgg_pND_gv9nJE-SeA-2" value="APP端" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="240" y="360" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="_kTgg_pND_gv9nJE-SeA-3" value="服务器端" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="520" y="360" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="_kTgg_pND_gv9nJE-SeA-4" value="联合登录表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="440" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="_kTgg_pND_gv9nJE-SeA-5" value="微信信息表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="320" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="_kTgg_pND_gv9nJE-SeA-6" value="微信第三方" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="200" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="_kTgg_pND_gv9nJE-SeA-7" value="" style="endArrow=classic;html=1;entryX=0.705;entryY=0.028;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="_kTgg_pND_gv9nJE-SeA-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="280" as="sourcePoint"/>
+            <mxPoint x="290" y="500" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_kTgg_pND_gv9nJE-SeA-8" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_kTgg_pND_gv9nJE-SeA-2" target="_kTgg_pND_gv9nJE-SeA-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="560" as="sourcePoint"/>
+            <mxPoint x="430" y="510" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_kTgg_pND_gv9nJE-SeA-9" value="" style="endArrow=classic;html=1;exitX=0.235;exitY=0.007;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_kTgg_pND_gv9nJE-SeA-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="550" as="sourcePoint"/>
+            <mxPoint x="440" y="270" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_kTgg_pND_gv9nJE-SeA-11" value="1获取code" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="311" y="310" width="70" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="_kTgg_pND_gv9nJE-SeA-12" value="2请求登录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="400" width="70" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="_kTgg_pND_gv9nJE-SeA-13" value="3获取微信信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="300" width="90" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="_kTgg_pND_gv9nJE-SeA-14" value="" style="endArrow=classic;html=1;exitX=1.025;exitY=0.678;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_kTgg_pND_gv9nJE-SeA-3" target="_kTgg_pND_gv9nJE-SeA-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="560" as="sourcePoint"/>
+            <mxPoint x="710" y="460" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_kTgg_pND_gv9nJE-SeA-15" value="acct_id，union_id等信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="450" width="150" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="_kTgg_pND_gv9nJE-SeA-16" value="微信昵称，头像，性别，地区等" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="330" width="180" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="_kTgg_pND_gv9nJE-SeA-17" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="_kTgg_pND_gv9nJE-SeA-3" target="_kTgg_pND_gv9nJE-SeA-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="300" as="sourcePoint"/>
+            <mxPoint x="700" y="250" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_kTgg_pND_gv9nJE-SeA-18" value="5查询是否存在绑定关系" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="440" width="140" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="_kTgg_pND_gv9nJE-SeA-19" value="4用户是否存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="605" y="340" width="90" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="_kTgg_pND_gv9nJE-SeA-20" value="APP端" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="240" y="600" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="_kTgg_pND_gv9nJE-SeA-21" value="服务器端" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="520" y="600" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="_kTgg_pND_gv9nJE-SeA-22" value="联合登录表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="620" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="_kTgg_pND_gv9nJE-SeA-26" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_kTgg_pND_gv9nJE-SeA-20" target="_kTgg_pND_gv9nJE-SeA-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="800" as="sourcePoint"/>
+            <mxPoint x="430" y="750" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_kTgg_pND_gv9nJE-SeA-29" value="请求解除绑定" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="640" width="90" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="_kTgg_pND_gv9nJE-SeA-31" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="_kTgg_pND_gv9nJE-SeA-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="602" y="640" as="sourcePoint"/>
+            <mxPoint x="710" y="700" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_kTgg_pND_gv9nJE-SeA-38" value="设置delete_flag=2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="640" width="110" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="_kTgg_pND_gv9nJE-SeA-39" value="微信登陆" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="240" y="140" width="90" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="_kTgg_pND_gv9nJE-SeA-40" value="解除微信绑定" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="240" y="570" width="90" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
