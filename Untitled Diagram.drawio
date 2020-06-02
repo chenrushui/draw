@@ -1,14 +1,80 @@
-<mxfile type="github" version="13.1.12" host="app.diagrams.net" modified="2020-06-02T01:15:26.761Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18363" etag="kiQmuVawYm19Tb03lgVB">
+<mxfile type="github" version="13.1.12" host="app.diagrams.net" modified="2020-06-02T01:53:22.144Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18363" etag="EPOxzI4Kn0nVCwRbhaxO">
   <diagram id="kshz4WPz1Eq9XDlsoaNL" name="Page-1">
-    <mxGraphModel grid="1" dx="808" dy="425" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" dx="977" dy="513" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Zjce7smWmYNN9Kidc5bo-1" value="&lt;font style=&quot;font-size: 22px&quot;&gt;表关系设计&lt;/font&gt;" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1">
-          <mxGeometry as="geometry" y="70" x="140" height="60" width="160" />
+        <mxCell id="Zjce7smWmYNN9Kidc5bo-1" value="&lt;font style=&quot;font-size: 22px&quot;&gt;会议预定表关系设计&lt;/font&gt;" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1">
+          <mxGeometry as="geometry" y="70" x="309" height="60" width="210" />
+        </mxCell>
+        <mxCell id="Zjce7smWmYNN9Kidc5bo-12" value="" parent="1" style="endArrow=classic;html=1;entryX=1.018;entryY=0.575;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1">
+          <mxGeometry as="geometry" height="50" width="50" relative="1">
+            <mxPoint as="sourcePoint" y="320" x="460" />
+            <mxPoint as="targetPoint" y="338.1500000000001" x="370" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zjce7smWmYNN9Kidc5bo-34" value="" parent="1" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1">
+          <mxGeometry as="geometry" height="50" width="50" relative="1">
+            <mxPoint as="sourcePoint" y="625" x="360" />
+            <mxPoint as="targetPoint" y="600" x="250" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zjce7smWmYNN9Kidc5bo-35" value="" parent="1" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" target="Zjce7smWmYNN9Kidc5bo-18">
+          <mxGeometry as="geometry" height="50" width="50" relative="1">
+            <mxPoint as="sourcePoint" y="545" x="600" />
+            <mxPoint as="targetPoint" y="520" x="490" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zjce7smWmYNN9Kidc5bo-36" value="" parent="1" style="endArrow=classic;html=1;entryX=1.039;entryY=0.862;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="Zjce7smWmYNN9Kidc5bo-18" source="Zjce7smWmYNN9Kidc5bo-28">
+          <mxGeometry as="geometry" height="50" width="50" relative="1">
+            <mxPoint as="sourcePoint" y="740" x="590" />
+            <mxPoint as="targetPoint" y="730" x="590" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zjce7smWmYNN9Kidc5bo-37" value="" parent="1" style="endArrow=classic;html=1;entryX=-0.037;entryY=0.209;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="Zjce7smWmYNN9Kidc5bo-29">
+          <mxGeometry as="geometry" height="50" width="50" relative="1">
+            <mxPoint as="sourcePoint" y="840" x="490" />
+            <mxPoint as="targetPoint" y="770" x="590" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zjce7smWmYNN9Kidc5bo-17" value="会议室预定表" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1">
+          <mxGeometry as="geometry" y="560" x="360" height="150" width="120" />
+        </mxCell>
+        <mxCell id="Zjce7smWmYNN9Kidc5bo-18" value="id" parent="Zjce7smWmYNN9Kidc5bo-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1">
+          <mxGeometry as="geometry" y="26" height="26" width="120" />
+        </mxCell>
+        <mxCell id="Zjce7smWmYNN9Kidc5bo-19" value="会议室id" parent="Zjce7smWmYNN9Kidc5bo-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1">
+          <mxGeometry as="geometry" y="52" height="26" width="120" />
+        </mxCell>
+        <mxCell id="Zjce7smWmYNN9Kidc5bo-20" value="会议主题&#xa;&#xa;申请人id" parent="Zjce7smWmYNN9Kidc5bo-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1">
+          <mxGeometry as="geometry" y="78" height="72" width="120" />
+        </mxCell>
+        <mxCell id="Zjce7smWmYNN9Kidc5bo-13" value="会议室信息表" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1">
+          <mxGeometry as="geometry" y="560" x="120" height="170" width="120" />
+        </mxCell>
+        <mxCell id="Zjce7smWmYNN9Kidc5bo-14" value="会议室id" parent="Zjce7smWmYNN9Kidc5bo-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1">
+          <mxGeometry as="geometry" y="26" height="26" width="120" />
+        </mxCell>
+        <mxCell id="Zjce7smWmYNN9Kidc5bo-15" value="会议室名称" parent="Zjce7smWmYNN9Kidc5bo-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1">
+          <mxGeometry as="geometry" y="52" height="26" width="120" />
+        </mxCell>
+        <mxCell id="Zjce7smWmYNN9Kidc5bo-16" value="会议室编号&#xa;&#xa;会议室容量&#xa;&#xa;会议室类型&#xa;" parent="Zjce7smWmYNN9Kidc5bo-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1">
+          <mxGeometry as="geometry" y="78" height="92" width="120" />
+        </mxCell>
+        <mxCell id="Zjce7smWmYNN9Kidc5bo-22" value="参会人员表" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1">
+          <mxGeometry as="geometry" y="480" x="600" height="150" width="120" />
+        </mxCell>
+        <mxCell id="Zjce7smWmYNN9Kidc5bo-23" value="id" parent="Zjce7smWmYNN9Kidc5bo-22" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1">
+          <mxGeometry as="geometry" y="26" height="26" width="120" />
+        </mxCell>
+        <mxCell id="Zjce7smWmYNN9Kidc5bo-24" value="预定id" parent="Zjce7smWmYNN9Kidc5bo-22" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1">
+          <mxGeometry as="geometry" y="52" height="26" width="120" />
+        </mxCell>
+        <mxCell id="Zjce7smWmYNN9Kidc5bo-25" value="参会人员id&#xa;&#xa;参会人员类型" parent="Zjce7smWmYNN9Kidc5bo-22" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1">
+          <mxGeometry as="geometry" y="78" height="72" width="120" />
         </mxCell>
         <mxCell id="Zjce7smWmYNN9Kidc5bo-3" value="用户信息表" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1">
-          <mxGeometry as="geometry" y="160" x="160" height="200" width="120" />
+          <mxGeometry as="geometry" y="200" x="240" height="200" width="120" />
         </mxCell>
         <mxCell id="Zjce7smWmYNN9Kidc5bo-4" value="用户id" parent="Zjce7smWmYNN9Kidc5bo-3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1">
           <mxGeometry as="geometry" y="26" height="26" width="120" />
@@ -20,7 +86,7 @@
           <mxGeometry as="geometry" y="78" height="122" width="120" />
         </mxCell>
         <mxCell id="Zjce7smWmYNN9Kidc5bo-7" value="微信信息表" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1">
-          <mxGeometry as="geometry" y="160" x="440" height="150" width="120" />
+          <mxGeometry as="geometry" y="200" x="480" height="150" width="120" />
         </mxCell>
         <mxCell id="Zjce7smWmYNN9Kidc5bo-8" value="微信信息id" parent="Zjce7smWmYNN9Kidc5bo-7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1">
           <mxGeometry as="geometry" y="26" height="26" width="120" />
@@ -29,6 +95,30 @@
           <mxGeometry as="geometry" y="52" height="26" width="120" />
         </mxCell>
         <mxCell id="Zjce7smWmYNN9Kidc5bo-10" value="微信头像&#xa;&#xa;用户unionId" parent="Zjce7smWmYNN9Kidc5bo-7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1">
+          <mxGeometry as="geometry" y="78" height="72" width="120" />
+        </mxCell>
+        <mxCell id="Zjce7smWmYNN9Kidc5bo-26" value="会议占用时段表" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1">
+          <mxGeometry as="geometry" y="680" x="600" height="150" width="120" />
+        </mxCell>
+        <mxCell id="Zjce7smWmYNN9Kidc5bo-27" value="id" parent="Zjce7smWmYNN9Kidc5bo-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1">
+          <mxGeometry as="geometry" y="26" height="26" width="120" />
+        </mxCell>
+        <mxCell id="Zjce7smWmYNN9Kidc5bo-28" value="预定id" parent="Zjce7smWmYNN9Kidc5bo-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1">
+          <mxGeometry as="geometry" y="52" height="26" width="120" />
+        </mxCell>
+        <mxCell id="Zjce7smWmYNN9Kidc5bo-29" value="会议时段id&#xa;" parent="Zjce7smWmYNN9Kidc5bo-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1">
+          <mxGeometry as="geometry" y="78" height="72" width="120" />
+        </mxCell>
+        <mxCell id="Zjce7smWmYNN9Kidc5bo-30" value="时段常量表" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1">
+          <mxGeometry as="geometry" y="800" x="360" height="150" width="120" />
+        </mxCell>
+        <mxCell id="Zjce7smWmYNN9Kidc5bo-31" value="id" parent="Zjce7smWmYNN9Kidc5bo-30" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1">
+          <mxGeometry as="geometry" y="26" height="26" width="120" />
+        </mxCell>
+        <mxCell id="Zjce7smWmYNN9Kidc5bo-32" value="时段开始时间" parent="Zjce7smWmYNN9Kidc5bo-30" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1">
+          <mxGeometry as="geometry" y="52" height="26" width="120" />
+        </mxCell>
+        <mxCell id="Zjce7smWmYNN9Kidc5bo-33" value="时段结束时间&#xa;" parent="Zjce7smWmYNN9Kidc5bo-30" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1">
           <mxGeometry as="geometry" y="78" height="72" width="120" />
         </mxCell>
       </root>
