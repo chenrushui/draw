@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2020-07-11T15:36:32.352Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" version="13.4.0" etag="zIusj7XnPEisSqet9EzH" type="github"><diagram id="K841JQn34HRRrsSOSrEb">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-07-11T15:45:22.248Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="vNpQrdRwgZolIwRzaFU_" version="13.4.0" type="github">
+  <diagram id="K841JQn34HRRrsSOSrEb" name="Page-1">
+    <mxGraphModel dx="723" dy="361" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8TcAFzx-M_xFQQ5Gom9a-1" value="大前端(医院，药店，慢特病服务站)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="160" y="80" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8TcAFzx-M_xFQQ5Gom9a-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="110" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8TcAFzx-M_xFQQ5Gom9a-3" value="web端" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="250" y="115" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8TcAFzx-M_xFQQ5Gom9a-4" value="ios端" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="350" y="115" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8TcAFzx-M_xFQQ5Gom9a-6" value="Android端" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="450" y="115" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8TcAFzx-M_xFQQ5Gom9a-8" value="nginx反向代理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="160" y="180" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8TcAFzx-M_xFQQ5Gom9a-9" value="业务网关层" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="160" y="250" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8TcAFzx-M_xFQQ5Gom9a-15" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="389.58" y="140" as="sourcePoint" />
+            <mxPoint x="389.58" y="175.83333333333331" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8TcAFzx-M_xFQQ5Gom9a-16" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="389.5799999999999" y="214.16999999999996" as="sourcePoint" />
+            <mxPoint x="389.5799999999999" y="250.00333333333327" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
