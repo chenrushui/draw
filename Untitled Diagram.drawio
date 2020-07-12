@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2020-07-12T09:29:51.012Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="I1JmD4N9hTaTbykLuYkN" version="13.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-12T13:18:33.435Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="sbZeA5O0OQf92yI0xhiE" version="13.4.2" type="github">
   <diagram id="K841JQn34HRRrsSOSrEb" name="Page-1">
-    <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="OwMu27jhyjzwBgv88Kzw-24" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="1060" width="355" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="OwMu27jhyjzwBgv88Kzw-19" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="770" width="500" height="260" as="geometry" />
+        </mxCell>
         <mxCell id="8TcAFzx-M_xFQQ5Gom9a-20" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="160" y="280" width="440" height="30" as="geometry" />
         </mxCell>
@@ -136,7 +142,7 @@
             <mxPoint x="379.66" y="547.8333333333333" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OwMu27jhyjzwBgv88Kzw-2" value="kafka集群" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="OwMu27jhyjzwBgv88Kzw-2" value="kafka集群" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="315" y="880" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OwMu27jhyjzwBgv88Kzw-3" value="医生提交患者处方信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -180,6 +186,24 @@
             <mxPoint x="506.75" y="920" as="sourcePoint" />
             <mxPoint x="506.75" y="960" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="OwMu27jhyjzwBgv88Kzw-20" value="功能测试" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1080" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OwMu27jhyjzwBgv88Kzw-21" value="性能测试" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OwMu27jhyjzwBgv88Kzw-22" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OwMu27jhyjzwBgv88Kzw-21" target="OwMu27jhyjzwBgv88Kzw-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="1160" as="sourcePoint" />
+            <mxPoint x="320" y="1110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="1140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OwMu27jhyjzwBgv88Kzw-23" value="测试阶段" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1130" width="56" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
