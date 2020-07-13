@@ -1,4 +1,4 @@
-<mxfile version="13.4.2" type="github" host="app.diagrams.net" modified="2020-07-13T04:23:40.891Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763" etag="rPoUN1e9-1NFFnh_3Gp8">
+<mxfile version="13.4.2" type="github" host="app.diagrams.net" modified="2020-07-13T04:33:31.325Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763" etag="bigE5iLtXw5tOBvGZmV1">
   <diagram id="K841JQn34HRRrsSOSrEb" name="Page-1">
     <mxGraphModel grid="1" dx="1240" dy="686" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -362,15 +362,15 @@
           <mxGeometry as="geometry" x="428.87" y="625" width="65.75" height="20" />
         </mxCell>
         <mxCell id="llO0JlSiUA80strPoOcS-1" value="User" parent="1" style="html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;shape=mxgraph.sitemap.user;fillColor=#E6E6E6;" vertex="1">
-          <mxGeometry as="geometry" x="196.15" y="3138" width="90" height="60" />
+          <mxGeometry as="geometry" x="120" y="3140.25" width="90" height="60" />
         </mxCell>
-        <mxCell id="llO0JlSiUA80strPoOcS-3" value="" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/nginx-128.png" vertex="1">
+        <mxCell id="llO0JlSiUA80strPoOcS-3" value="&lt;font style=&quot;font-size: 17px&quot;&gt;nginx&lt;/font&gt;" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/nginx-128.png" vertex="1">
           <mxGeometry as="geometry" x="362.89" y="3118" width="40" height="40" />
         </mxCell>
-        <mxCell id="llO0JlSiUA80strPoOcS-4" value="" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/nginx-128.png" vertex="1">
+        <mxCell id="llO0JlSiUA80strPoOcS-4" value="&lt;font style=&quot;font-size: 15px&quot;&gt;nginx&lt;/font&gt;" parent="1" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/nginx-128.png" vertex="1">
           <mxGeometry as="geometry" x="362.89" y="3198" width="40" height="40" />
         </mxCell>
-        <mxCell id="llO0JlSiUA80strPoOcS-5" value="" parent="1" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.nat_gateway;fillColor=#000000;" vertex="1">
+        <mxCell id="llO0JlSiUA80strPoOcS-5" value="&lt;font style=&quot;font-size: 15px&quot;&gt;网关层&lt;/font&gt;" parent="1" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.nat_gateway;fillColor=#000000;" vertex="1">
           <mxGeometry as="geometry" x="486.15" y="3138" width="78" height="78" />
         </mxCell>
         <mxCell id="llO0JlSiUA80strPoOcS-6" value="" parent="1" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.traditional_server;fillColor=#333333;" vertex="1">
@@ -395,10 +395,13 @@
           <mxGeometry as="geometry" x="726.15" y="3260" width="27.69" height="48" />
         </mxCell>
         <mxCell id="llO0JlSiUA80strPoOcS-17" value="&lt;font style=&quot;font-size: 15px&quot;&gt;oracle集群&lt;/font&gt;" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.oracle_db_instance;gradientColor=none;fillColor=#CCCCCC;" vertex="1">
-          <mxGeometry as="geometry" x="1000" y="3135.75" width="60" height="64.5" />
+          <mxGeometry as="geometry" x="835" y="3410" width="60" height="64.5" />
         </mxCell>
         <mxCell id="llO0JlSiUA80strPoOcS-20" value="MQ" parent="1" style="outlineConnect=0;fontColor=#232F3E;gradientDirection=north;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.mq;fillColor=#E6E6E6;gradientColor=#E6E6E6;" vertex="1">
           <mxGeometry as="geometry" x="840" y="3238" width="78" height="78" />
+        </mxCell>
+        <mxCell id="llO0JlSiUA80strPoOcS-22" value="&lt;font style=&quot;font-size: 15px&quot;&gt;CDN&lt;/font&gt;" parent="1" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Content_Delivery_Network.svg;fillColor=#E6E6E6;gradientColor=#E6E6E6;" vertex="1">
+          <mxGeometry as="geometry" x="429" y="3320" width="93.48" height="43" />
         </mxCell>
       </root>
     </mxGraphModel>
