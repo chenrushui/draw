@@ -1,1 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2022-06-29T07:18:57.767Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" version="20.0.3" etag="RKsuybiioqk7B2PJGTK1" type="github"><diagram id="tUvZLjYrz-ouNL7Q870u">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-29T07:44:10.371Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="WXU86UB_4JccCVT_v9y8" version="20.0.3" type="github">
+  <diagram id="tUvZLjYrz-ouNL7Q870u" name="Page-1">
+    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ra4Ac-fjCzIDJGFWmM0a-1" value="网关层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ra4Ac-fjCzIDJGFWmM0a-2" value="用户信息层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ra4Ac-fjCzIDJGFWmM0a-3" value="数据层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ra4Ac-fjCzIDJGFWmM0a-4" value="缓存层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ra4Ac-fjCzIDJGFWmM0a-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Ra4Ac-fjCzIDJGFWmM0a-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="80" as="sourcePoint" />
+            <mxPoint x="450" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ra4Ac-fjCzIDJGFWmM0a-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ra4Ac-fjCzIDJGFWmM0a-1" target="Ra4Ac-fjCzIDJGFWmM0a-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="230" as="sourcePoint" />
+            <mxPoint x="490" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ra4Ac-fjCzIDJGFWmM0a-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ra4Ac-fjCzIDJGFWmM0a-2" target="Ra4Ac-fjCzIDJGFWmM0a-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="400" as="sourcePoint" />
+            <mxPoint x="330" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ra4Ac-fjCzIDJGFWmM0a-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ra4Ac-fjCzIDJGFWmM0a-4" target="Ra4Ac-fjCzIDJGFWmM0a-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="220" as="sourcePoint" />
+            <mxPoint x="570" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ra4Ac-fjCzIDJGFWmM0a-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ra4Ac-fjCzIDJGFWmM0a-2" target="Ra4Ac-fjCzIDJGFWmM0a-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="340" as="sourcePoint" />
+            <mxPoint x="420" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ra4Ac-fjCzIDJGFWmM0a-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="Ra4Ac-fjCzIDJGFWmM0a-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="310" as="sourcePoint" />
+            <mxPoint x="420" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ra4Ac-fjCzIDJGFWmM0a-15" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="120" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ra4Ac-fjCzIDJGFWmM0a-17" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="230" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ra4Ac-fjCzIDJGFWmM0a-18" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="350" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ra4Ac-fjCzIDJGFWmM0a-19" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="310" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ra4Ac-fjCzIDJGFWmM0a-20" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="270" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ra4Ac-fjCzIDJGFWmM0a-21" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="404" y="200" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ra4Ac-fjCzIDJGFWmM0a-22" value="网关层：主要应用请求过滤；&lt;br&gt;1）如果url中携带/login,/register，请求转发到用户信息层；&lt;br&gt;2）如果请求头中含有token，校验token在redis缓存层中是否存在，如果不存在，提示用户token失效，重新登陆；&lt;br&gt;3)&amp;nbsp; 如果token存在，说明用户是登录态，从redis缓存层中获取用户id，设置到请求头上，请求向下传递。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="161" y="530" width="629" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ra4Ac-fjCzIDJGFWmM0a-23" value="用户信息层：主要用于单点登陆和注册；&lt;br&gt;1）分布式集群下，多节点部署，如果手机号+验证码注册，快速点击两次，可能会造成重复注册，需要通过redis的原子操作保证幂等性。&lt;br&gt;2）注册成功后，随机生成一个token返回给前端，并且存储到redis中，这是用户的登陆态。&lt;br&gt;3)&amp;nbsp; 用户登陆接口设置黑名单制度，同一手机号当天登陆密码错误三次即进入锁定状态，第二天才能重新登陆；账户锁定信息保存在缓存层；&lt;br&gt;4）手机号正则校验" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="161" y="650" width="629" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ra4Ac-fjCzIDJGFWmM0a-24" value="数据层：主要存储用户手机号，密码信息；&lt;br&gt;1）设计用户信息表，密码MD5处理，手机号设置唯一索引&lt;br&gt;2）设计登陆日志表，记录用户的登录的渠道，token交换信息，登录时间&lt;br&gt;3)&amp;nbsp; 针对保留元素的设计" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="161" y="770" width="629" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
