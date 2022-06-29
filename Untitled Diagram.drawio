@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-29T07:44:10.371Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="WXU86UB_4JccCVT_v9y8" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-29T08:12:32.286Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="svAeYM0uIrFhiNAd3Kzc" version="20.0.3" type="github">
   <diagram id="tUvZLjYrz-ouNL7Q870u" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -70,14 +70,20 @@
         <mxCell id="Ra4Ac-fjCzIDJGFWmM0a-21" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="404" y="200" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Ra4Ac-fjCzIDJGFWmM0a-22" value="网关层：主要应用请求过滤；&lt;br&gt;1）如果url中携带/login,/register，请求转发到用户信息层；&lt;br&gt;2）如果请求头中含有token，校验token在redis缓存层中是否存在，如果不存在，提示用户token失效，重新登陆；&lt;br&gt;3)&amp;nbsp; 如果token存在，说明用户是登录态，从redis缓存层中获取用户id，设置到请求头上，请求向下传递。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="161" y="530" width="629" height="70" as="geometry" />
+        <mxCell id="Ra4Ac-fjCzIDJGFWmM0a-22" value="网关层：主要应用请求过滤；&lt;br&gt;1）如果url中携带/login,/register，请求转发到用户信息层；&lt;br&gt;2）如果请求头中含有token，校验token在redis缓存层中是否存在，如果不存在，提示用户token失效，重新登陆；&lt;br&gt;3)&amp;nbsp; 如果token存在，说明用户是登录态，从redis缓存层中获取用户id，设置到请求头上，请求向下传递，下游服务直接使用用户id。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="161" y="530" width="599" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Ra4Ac-fjCzIDJGFWmM0a-23" value="用户信息层：主要用于单点登陆和注册；&lt;br&gt;1）分布式集群下，多节点部署，如果手机号+验证码注册，快速点击两次，可能会造成重复注册，需要通过redis的原子操作保证幂等性。&lt;br&gt;2）注册成功后，随机生成一个token返回给前端，并且存储到redis中，这是用户的登陆态。&lt;br&gt;3)&amp;nbsp; 用户登陆接口设置黑名单制度，同一手机号当天登陆密码错误三次即进入锁定状态，第二天才能重新登陆；账户锁定信息保存在缓存层；&lt;br&gt;4）手机号正则校验" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="161" y="650" width="629" height="70" as="geometry" />
+        <mxCell id="Ra4Ac-fjCzIDJGFWmM0a-23" value="用户信息层：主要用于单点登陆，注册；&lt;br&gt;1）分布式集群下，多节点部署，如果手机号+验证码注册，快速点击两次，可能会造成重复注册，需要通过redis的原子操作保证幂等性。&lt;br&gt;2）注册成功后，随机生成一个token返回给前端，并且存储到redis中，这是用户的登陆态。&lt;br&gt;3)&amp;nbsp; 用户登陆接口设置黑名单制度，同一手机号当天登陆密码错误三次即进入锁定状态，第二天才能重新登陆；账户锁定信息保存在缓存层；&lt;br&gt;4）手机号正则校验" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="161" y="650" width="589" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Ra4Ac-fjCzIDJGFWmM0a-24" value="数据层：主要存储用户手机号，密码信息；&lt;br&gt;1）设计用户信息表，密码MD5处理，手机号设置唯一索引&lt;br&gt;2）设计登陆日志表，记录用户的登录的渠道，token交换信息，登录时间&lt;br&gt;3)&amp;nbsp; 针对保留元素的设计" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+        <mxCell id="Ra4Ac-fjCzIDJGFWmM0a-24" value="数据层：主要存储用户手机号，密码信息；&lt;br&gt;1）设计用户信息表，密码MD5处理，手机号设置唯一索引&lt;br&gt;2）设计登陆日志表，记录用户的登录的渠道，token交换信息，登录时间&lt;br&gt;3)&amp;nbsp; 用户id的生成" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="161" y="770" width="629" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ra4Ac-fjCzIDJGFWmM0a-25" value="缓存层：主要存储用户token信息，用户个人信息；黑名单信息；&lt;br&gt;1）基于集群模式封装redis，提高集群的可扩展性；&lt;br&gt;2）集群设置三主三从模式，保证集群的高可用" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="161" y="850" width="629" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ra4Ac-fjCzIDJGFWmM0a-26" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;public interface RegisterService {&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; /**&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;* 注册&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;*&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;* @param baseRequest 参数模型&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;* @return token和userId&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;*/&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; BaseResult register(BaseRequest register);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;public interface LoginService {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; /**&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;* 密码登录功能&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;*&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;* @param request 参数模型&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;* @return&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;*/&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; BaseResult login(BaseRequest login);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="960" width="570" height="350" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
